@@ -1,5 +1,9 @@
 import sys
 
+if len(sys.argv) != 2:
+    print("Usage: python3 text-to-hex.py <text>")
+    sys.exit(1)
+
 # Read command line argument as string
 text = sys.argv[1]
 
