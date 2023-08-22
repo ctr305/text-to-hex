@@ -1,6 +1,6 @@
 import sys
 
-if len(sys.argv) != 2:
+if len(sys.argv) != 2 or sys.argv[1] == "-h" or sys.argv[1] == "--help":
     print("Usage: python3 text-to-hex.py <text>")
     sys.exit(1)
 
