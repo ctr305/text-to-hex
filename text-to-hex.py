@@ -8,6 +8,7 @@ print("Text in binary: ", text)
 for char in text:
     # Print the character as binary
     print(bin(ord(char)), end=' ')
+print()
 
 # Print a new line before printing the hex
 print("\nText in hex: ", text)
